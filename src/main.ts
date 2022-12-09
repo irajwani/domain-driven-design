@@ -26,8 +26,8 @@ async function bootstrap() {
   const appConfig = app.get(ConfigService).get('app');
   if (appConfig.swaggerEnabled) {
     const config = new DocumentBuilder()
-      .setTitle('Model Service')
-      .setDescription('Client library for Model service')
+      .setTitle('DDD')
+      .setDescription('Client library for DDD')
       .setVersion('0.0.1')
       .build();
 

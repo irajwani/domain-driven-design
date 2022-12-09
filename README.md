@@ -1,6 +1,6 @@
 ## Description
 
-Model-Service to create and manage meta-models
+Template repository: Domain Driven Design, CQRS, Event Sourcing, Mongo, more to come
 
 ## Installation
 
@@ -12,14 +12,14 @@ $ npm install
 ## Running the app
 
 ```bash
-$ docker build -t model-service .
+$ docker build -t template-service .
 $ docker-compose up
 ```
 
 Or 
 
 ```bash
-$ docker pull irajwani/model-service
+$ docker pull irajwani/template-service
 ```
 
 Or
@@ -38,9 +38,3 @@ Simply visit the [swagger documentation](http://localhost:3000/documentation) to
 You can connect to the mongodb instance within a GUI for mongo with connection string 'mongodb://localhost:27017'
 
 ## Standard User Story:
-
-- Create a model
-- Retrieve the model by ID
-- Patch a model, and play around with deltas mechanism, like in assignment description
-
-I've added comments within the code base for any other shortcomings in the system design that would be detrimental in a production grade repo.

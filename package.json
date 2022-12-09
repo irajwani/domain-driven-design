@@ -1,8 +1,8 @@
 {
-  "name": "model-service",
+  "name": "domain-driven-design",
   "private": true,
   "version": "1.0.0",
-  "description": "Server to manage custom data models",
+  "description": "",
   "license": "MIT",
   "scripts": {
     "prebuild": "rimraf dist",

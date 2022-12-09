@@ -1,6 +1,6 @@
 import EntityStubs from './entity';
 import AssociationStubs from './association';
-import { IModel } from '../../../../Schemas/model.schema';
+import { IModel } from '../../../../Schemas/menu.schema';
 
 interface IModelStubs {
   [index: string]: IModel;

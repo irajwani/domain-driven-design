@@ -1,3 +1,3 @@
-import { ModelModule } from './Model/model.module';
+import { MenuModule } from './Menu/menu.module';
 
-export { ModelModule };
+export { MenuModule };
